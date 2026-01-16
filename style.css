@@ -17,6 +17,7 @@ body {
     align-items: flex-start;
     justify-content: center;
     min-height: 100vh;
+    font-family:monospace;
     font-size: var(--font-size);
     margin: 0px;
     padding: var(--margin);
@@ -82,4 +83,5 @@ footer {
     .container {
         grid-template: "myHeader" "mySidebar" "myMainContent" "myFooter";
     }
+
 }
