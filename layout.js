@@ -36,7 +36,7 @@ const nesting = getNestingString();
 const headerEl = `
     <div class="header">
         <h1>nagsoliko</h1>
-        <a href="index.html">home</a> | <a href="pages/recipes.html">food</a> | <a href="pages/books.html">books</a> | <a href="pages/movies.html">films</a> | <a href="pages/games.html">games</a> | <a href="pages/music.html">tunes</a> | <a href="pages/garden.html">garden</a>
+        <a href="https://nagsoliko.github.io/">home</a> | <a href="https://nagsoliko.github.io/pages/recipes.html">food</a> | <a href="pages/books.html">books</a> | <a href="pages/movies.html">films</a> | <a href="pages/games.html">games</a> | <a href="pages/music.html">tunes</a> | <a href="pages/garden.html">garden</a>
         <hr>
     </div>
 `;
@@ -49,4 +49,5 @@ const footerEl = `
         Last updated: ${lastUpdate.getFullYear()}/${lastUpdate.getMonth() + 1}/${lastUpdate.getDate()} <br>
         &copy; ${currentYear} Chloë & Soham
     </div>
+
 `;
