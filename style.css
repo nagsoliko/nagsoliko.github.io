@@ -61,6 +61,15 @@ h3 {
     justify-content: center;
 }
 
+th,
+td {
+    padding: 4px;
+}
+
+.ingr {
+    text-align: right;
+}
+
 @media (prefers-color-scheme: dark) {
     body {
         color: #c9d1d9;
@@ -69,8 +78,7 @@ h3 {
     a:link {
         color: #58a6ff
     }
-    a:visited {
+    a:hover {
         color: #8e96f0
     }
 }
-
